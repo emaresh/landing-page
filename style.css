@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+  width: 700px;
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  flex: 1;
+  
+
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.hlink {
+  text-decoration: none;
+  padding: 8px;
+}
